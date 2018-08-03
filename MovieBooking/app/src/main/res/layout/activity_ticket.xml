@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ticketback"
+    android:padding="10dp"
+    tools:context="prakash.example.com.moviebooking.Ticket">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Ticket"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_mname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/tv_cname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/tv_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount:"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000" />
+        <TextView
+            android:id="@+id/tv_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="All Movies timing is same.Evening 7pm!!!"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Do print and show this while entering."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="bottom"/>
+
+
+
+
+</LinearLayout>

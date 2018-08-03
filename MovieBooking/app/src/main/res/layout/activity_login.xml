@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfe6ee"
+    tools:context="prakash.example.com.moviebooking.Login">
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="40dp"
+        android:textColor="#2a054b"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iv_logo"/>
+    <EditText
+        android:id="@+id/ev_username"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_login"
+        android:layout_marginTop="20dp"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:hint="Username"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/ev_password"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ev_username"
+        android:layout_marginTop="20dp"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/bv_login"
+        android:layout_below="@+id/ev_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:fontFamily="serif"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="#e3a387b1"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+</RelativeLayout>
